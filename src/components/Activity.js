@@ -40,6 +40,7 @@ class Activity extends Component{
   renderItem(item){
     //console.log(item);
 
+
     var grand_total = item.item.grand_total.slice(0, -5);
 
     return(
